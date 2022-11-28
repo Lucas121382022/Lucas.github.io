@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.zzsxd.cn/2022/11/27/%E6%96%B0%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://www.zzsxd.cn/2022/11/27/%E6%96%B0%E6%96%87%E7%AB%A0/</loc>
     
     <lastmod>2022-11-27</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.zzsxd.cn/2022/11/26/hello-world/</loc>
+    <loc>http://www.zzsxd.cn/2022/11/26/hello-world/</loc>
     
     <lastmod>2022-11-26</lastmod>
     
@@ -21,7 +21,7 @@
   
 
   <url>
-    <loc>https://www.zzsxd.cn/</loc>
+    <loc>http://www.zzsxd.cn/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
