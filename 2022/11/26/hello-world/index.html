@@ -13,7 +13,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="阿正">
+  <meta name="author" content="Lucas">
   <meta name="keywords" content="">
   
     <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-26T15:29:36.819Z">
 <meta property="article:modified_time" content="2022-11-26T15:29:36.819Z">
-<meta property="article:author" content="阿正">
+<meta property="article:author" content="Lucas">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -309,7 +309,7 @@
       
         <div class="license-meta-item">
           <div>作者</div>
-          <div>阿正</div>
+          <div>Lucas</div>
         </div>
       
       
@@ -363,6 +363,34 @@
             </div>
 
             
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"DHnVKfP8PVXApBaTCLmEtPTR-gzGzoHsz","appKey":"J67sDZ9M260N1Cs2FSxtWQUP","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
           </article>
         </div>
       </div>
